@@ -1,5 +1,5 @@
 def prime?(num)
-  if num <= 0
+  if num <= 1
     return false
   end
   if num == 2 || num == 3
@@ -7,7 +7,7 @@ def prime?(num)
   elsif num.even?
     return false
   end
-  if num %
+  
 end
 
 
