@@ -6,7 +6,8 @@ def prime?(num)
     return false
   elsif num == 2
     return true
-  
+  end
+
 end
 
 
