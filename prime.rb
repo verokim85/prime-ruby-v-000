@@ -7,10 +7,11 @@ def prime?(num)
   elsif num.even?
     return false
   end
-  (4...num).to_a.each do |x|
-    if num % x != 0
-      return true
-    end
+  (4...num).to_a. all? do |x|
+    # if
+      num % x != 0
+    #   return true
+    # end
   end
   false
 end
