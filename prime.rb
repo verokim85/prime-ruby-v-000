@@ -6,7 +6,6 @@ def prime?(num)
   (2..num).to_a.all? do |x|
         num % x != 0
   end
-  false
 end
 
 
