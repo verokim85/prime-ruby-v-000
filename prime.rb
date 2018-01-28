@@ -2,11 +2,11 @@ def prime?(num)
   if num < 0
     return false
   end
-  if num is even?
+  if num.even?
     return false
   elsif num == 2
     return true
-
+  
 end
 
 
