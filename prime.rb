@@ -7,7 +7,9 @@ def prime?(num)
   elsif num.even?
     return false
   end
-  (4..num).to_a.each do |x| num % x
+  (4..num).to_a.each do |x| 
+    if num % x == 0
+      
 
 
 end
