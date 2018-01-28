@@ -6,9 +6,8 @@ def prime?(num)
     return true
   elsif num.even?
     return false
-   
   end
-  
+
 end
 
 
