@@ -2,12 +2,13 @@ def prime?(num)
   if num < 0
     return false
   end
-  if num.even?
-    return false
-  elsif num == 2
+  if num == 2
     return true
+  elsif num.even?
+    return false
+   
   end
-
+  
 end
 
 
