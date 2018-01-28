@@ -2,7 +2,8 @@ def prime?(num)
   if num < 0
     return false
   end
-    
+  if num is even? || num == 2
+    return false
 end
 
 
@@ -17,4 +18,3 @@ end
   #   true
   # end
 # end
-  
