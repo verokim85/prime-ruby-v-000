@@ -2,11 +2,6 @@ def prime?(num)
   if num <= 1
     return false
   end
-  if num == 2 || num == 3
-    return true
-  elsif num.even?
-    return false
-  end
   (2...num).to_a.all? do |x|
     # if
       num % x != 0
